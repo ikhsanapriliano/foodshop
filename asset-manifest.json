@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/foodshop/static/css/main.aaa0125f.css",
-    "main.js": "/foodshop/static/js/main.a2c5e98b.js",
-    "static/media/Hero.jpg": "/foodshop/static/media/Hero.f02d7f46de5d4a5059eb.jpg",
-    "static/media/special.jpg": "/foodshop/static/media/special.378f5dbf75a172887710.jpg",
+    "main.css": "/foodshop/static/css/main.4ad48c0d.css",
+    "main.js": "/foodshop/static/js/main.01a25cdd.js",
+    "static/media/Hero.png": "/foodshop/static/media/Hero.6ae4be3db6046859a2d1.png",
+    "static/media/special.png": "/foodshop/static/media/special.205eebd0385946c03175.png",
     "index.html": "/foodshop/index.html",
-    "main.aaa0125f.css.map": "/foodshop/static/css/main.aaa0125f.css.map",
-    "main.a2c5e98b.js.map": "/foodshop/static/js/main.a2c5e98b.js.map"
+    "main.4ad48c0d.css.map": "/foodshop/static/css/main.4ad48c0d.css.map",
+    "main.01a25cdd.js.map": "/foodshop/static/js/main.01a25cdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaa0125f.css",
-    "static/js/main.a2c5e98b.js"
+    "static/css/main.4ad48c0d.css",
+    "static/js/main.01a25cdd.js"
   ]
 }
