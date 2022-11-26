@@ -11,7 +11,7 @@ function App() {
       <div>
         <NavigationBar />
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/foodshop" element={<HomePage />} />
           <Route path="menu" element={<Menu />}>
             <Route path="makanan" element={<Outlet />} />
             <Route path="minuman" element={<Outlet />} />

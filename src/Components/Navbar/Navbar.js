@@ -32,7 +32,7 @@ const NavigationBar = () => {
         </Navbar.Toggle>
         <Navbar.Collapse className="justify-content-end mt-2">
           <Nav>
-            <Link className="nav-link ps-4 pe-4" to="/">
+            <Link className="nav-link ps-4 pe-4" to="/foodshop">
               Home
             </Link>
             <Link className="nav-link ps-4 pe-4" to="menu">
