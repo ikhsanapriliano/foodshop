@@ -1,0 +1,46 @@
+.footer-container {
+  padding: 50px 50px 0 50px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.info {
+  height: 150px;
+  margin: 0 50px;
+}
+
+.info p {
+  color: white;
+  width: 100%;
+  text-align: justify;
+  margin: 0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-container {
+    padding: 30px 0;
+  }
+
+  .footer-info {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .info {
+    margin: 20px 50px;
+  }
+}
+
+.copyright {
+  margin-top: 15px;
+  padding: 5px;
+  text-align: center;
+  font-size: smaller;
+  background-color: #87805e;
+}

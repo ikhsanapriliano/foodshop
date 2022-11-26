@@ -1,0 +1,44 @@
+.navbar-container {
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  background-color: white;
+}
+
+.nav-link {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.last-nav {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.login {
+  background-color: #87805e;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+.login:hover {
+  background-color: #b09b71;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-link {
+    justify-content: left;
+  }
+
+  .last-nav {
+    border-right: none;
+  }
+
+  .login {
+    width: 100%;
+    text-align: center;
+  }
+}

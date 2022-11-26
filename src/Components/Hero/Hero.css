@@ -1,0 +1,74 @@
+.hero-container {
+  background-image: url(../../Assets/HeroAssets/Hero.png);
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+}
+
+h1 {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.hero-text-container p {
+  animation: opacityAnimation 4s;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    margin-bottom: 200px;
+  }
+
+  to {
+    opacity: 1;
+    margin-bottom: inherit;
+  }
+}
+
+@keyframes opacityAnimation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-container {
+    height: 300px;
+  }
+
+  .hero-text-container p {
+    width: 100%;
+    background-color: #ffffff86;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    padding: 15px;
+    color: black;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .hero-text-container {
+    align-items: center;
+  }
+}
